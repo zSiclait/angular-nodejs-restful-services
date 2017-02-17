@@ -1,0 +1,18 @@
+REST
+
+    Stands for REpresetational State Transfer
+        We want to transfer state between one type of client up to our server or back
+        Architectural style for distributed systems
+        Resources are identified with a URI
+            So anything that understands HTMLcan interacti with REST services
+        
+Promises vs Observables
+
+    Promises   
+
+        The component makes a call to the service which returns a promis. This is hooked up to a callback and then data is passed down when it becomes available
+    
+    Observables
+
+        The component subscribes to a service which will return data overtime. Rather than having a callback per data returned, we can have data "piped" over
+
